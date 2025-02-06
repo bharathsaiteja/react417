@@ -41,21 +41,36 @@
 // }
 
 
-//props.children
-import React, { Component } from 'react'
-import Propchild from './components/Propchild'
-import Sub from './components/Sub'
+// //props.children
+// // import React, { Component } from 'react'
+// // import Propchild from './components/Propchild'
+// // import Sub from './components/Sub'
 
-export default class extends Component {
+// // export default class extends Component {
+// //   render() {
+// //     return (
+// //       <div>
+// //         <Propchild username="bharath" comapny="accenture">
+// //           <h1>this is bharath sai teja😍</h1>
+// //           <Sub/>
+// //         </Propchild>
+// //       </div>
+// //     )
+// //   }
+// }
+
+import React, { Component } from 'react'
+import Cbcstateex from './stateexamples/Cbcstateex'
+
+
+export default class App extends Component {
   render() {
     return (
-      <div>
-        <Propchild username="bharath" comapny="accenture">
-          <h1>this is bharath sai teja😍</h1>
-          <Sub/>
-        </Propchild>
+      <div>App
+      <Cbcstateex/>
       </div>
     )
   }
 }
+
 
