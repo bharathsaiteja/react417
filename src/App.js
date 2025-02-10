@@ -59,15 +59,29 @@
 // //   }
 // }
 
+// import React, { Component } from 'react'
+// import Cbcstateex from './stateexamples/Cbcstateex'
+
+// export default class  extends Component {
+//   render() {
+//     return (
+//       <div>
+//       <Cbcstateex/>
+//       </div>
+//     )
+//   }
+// }
+
+//hooks
 import React, { Component } from 'react'
-import Cbcstateex from './stateexamples/Cbcstateex'
+import UseEffectex  from './hooks/UseEffectex'
 
-
-export default class App extends Component {
+export default class app extends Component {
   render() {
     return (
-      <div>App
-      <Cbcstateex/>
+      <div>
+      app
+      <UseEffectex/>
       </div>
     )
   }
