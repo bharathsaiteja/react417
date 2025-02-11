@@ -73,18 +73,28 @@
 // }
 
 //hooks
-import React, { Component } from 'react'
-import UseEffectex  from './hooks/UseEffectex'
+// import React, { Component } from 'react'
+// import UseEffectex  from './hooks/UseEffectex'
 
-export default class app extends Component {
-  render() {
-    return (
-      <div>
-      app
-      <UseEffectex/>
-      </div>
-    )
-  }
+// export default class app extends Component {
+//   render() {
+//     return (
+//       <div>
+//       app
+//       <UseEffectex/>
+//       </div>
+//     )
+//   }
+// }
+
+import React from 'react'
+import RefExam from './hooks/RefExam'
+
+export default function App() {
+  return (
+    <div>
+      <RefExam/>
+    </div>
+  )
 }
-
 
