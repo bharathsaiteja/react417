@@ -1,9 +1,17 @@
-import React from "react";
-function Navbar(){
-return (
-    <div className="nav">
-<h1>navbar</h1>
-    </div>
-)
+import React from 'react'
+import Logo from './Logo'
+import Menu from './Menu'
+import Styles from "./navbar.module.css";
+
+const Navbar = () => {
+  return (
+    <section id={Styles.navBlock}>
+        <article>
+            <Logo/>
+            <Menu/>
+        </article>
+    </section>
+  )
 }
-export default Navbar;
+
+export default Navbar
